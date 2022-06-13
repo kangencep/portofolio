@@ -73,9 +73,6 @@ li.nav-icon {
     width: 100%;
 }
 
-ul.nav {
-    text-align: right;
-}
 
 hr {
     max-width: 300px;
@@ -245,5 +242,10 @@ footer {
     .contact-info > div {
     display: block;
     }
+    
+    ul.nav {
+    text-align: right;
+    font-weight: 250;
+}
 
 }
