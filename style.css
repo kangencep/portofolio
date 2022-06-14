@@ -62,17 +62,6 @@ ul.nav {
     background-color: teal;
 }
 
-li.nav-icon {
-    padding: 0;
-    width: 100px;
-    margin: .3em 1em;
-    float: left;
-}
-
-.nav-icon > img {
-    width: 100%;
-}
-
 
 hr {
     max-width: 300px;
@@ -201,7 +190,22 @@ footer {
    .desktop {
     display: block !important;
    }
+   
+    li.nav-icon {
+    padding: 0;
+    width: 100px;
+    margin: .3em 1em;
+    float: left;
+   }
 
+   .nav-icon > img {
+    width: 100%;
+   }
+    
+    ul.nav {
+    text-align: right;
+    }
+    
    .section-working, .section-education {
     width: 49.5%;
     vertical-align: top;
@@ -242,10 +246,5 @@ footer {
     .contact-info > div {
     display: block;
     }
-    
-    ul.nav {
-    text-align: right;
-    font-weight: 200;
-}
 
 }
