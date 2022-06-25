@@ -193,7 +193,7 @@ footer {
    
     li.nav-icon {
     padding: 0;
-    width: 100px;
+    width: 86px;
     margin: .3em 1em;
     float: left;
    }
@@ -204,6 +204,7 @@ footer {
     
     ul.nav {
     text-align: right;
+     font-size: 13px;
     }
     
    .section-working, .section-education {
